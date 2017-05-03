@@ -1,0 +1,1 @@
+# Switchboard Machine Info Plug
