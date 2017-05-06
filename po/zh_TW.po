@@ -1,0 +1,103 @@
+# Chinese (Traditional) translation for switchboard-plug-about
+# Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
+# This file is distributed under the same license as the switchboard-plug-about package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: switchboard-plug-about\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-04-22 16:02-0500\n"
+"PO-Revision-Date: 2015-09-13 13:44+0000\n"
+"Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
+"Language-Team: Chinese (Traditional) <zh_TW@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2015-09-14 05:56+0000\n"
+"X-Generator: Launchpad (build 17720)\n"
+
+#: ../src//Plug.vala:41
+msgid "About"
+msgstr "關於"
+
+#: ../src//Plug.vala:42
+msgid "View System Information"
+msgstr "檢視系統資訊"
+
+#: ../src//Plug.vala:178 ../src//Plug.vala:207 ../src//Plug.vala:231
+#: ../src//Plug.vala:242 ../src//Plug.vala:262
+msgid "Unknown"
+msgstr "未知"
+
+#: ../src//Plug.vala:198
+msgid "Dual-Core"
+msgstr "雙核心"
+
+#: ../src//Plug.vala:200
+msgid "Quad-Core"
+msgstr "四核心"
+
+#: ../src//Plug.vala:281
+msgid "Built on %s %s"
+msgstr "基於 %s %s 建置"
+
+#: ../src//Plug.vala:286
+msgid "Website"
+msgstr "網站"
+
+#: ../src//Plug.vala:300
+msgid "Hardware:"
+msgstr "硬體："
+
+#: ../src//Plug.vala:304
+msgid "Processor:"
+msgstr "處理器："
+
+#: ../src//Plug.vala:308
+msgid "Memory:"
+msgstr "記憶體："
+
+#: ../src//Plug.vala:312
+msgid "Graphics:"
+msgstr "顯示卡："
+
+#: ../src//Plug.vala:316
+msgid "Storage:"
+msgstr "儲存空間："
+
+#: ../src//Plug.vala:372
+msgid "Suggest Translations"
+msgstr "翻譯建議"
+
+#: ../src//Plug.vala:382
+msgid "Report a Problem"
+msgstr "問題回報"
+
+#: ../src//Plug.vala:392
+msgid "Check for Updates"
+msgstr "檢查更新"
+
+#: ../src//Plug.vala:402
+msgid "Restore Default Settings"
+msgstr "還原預設設定"
+
+#: ../src//Plug.vala:508
+msgid "System settings will be restored to the factory defaults"
+msgstr "系統設定值將還原成出廠預設值"
+
+#: ../src//Plug.vala:509
+msgid "All system settings and data will be reset to the default values."
+msgstr "所有系統設定值和資料都會重設回預設值。"
+
+#: ../src//Plug.vala:510
+msgid "Personal data, such as music and pictures, will be uneffected."
+msgstr "個人資料，例如音樂、圖片等，則不受影響。"
+
+#: ../src//Plug.vala:527
+msgid "Restore Settings"
+msgstr "還原設定值"
+
+#: ../src//Plug.vala:530
+msgid "Cancel"
+msgstr "取消"

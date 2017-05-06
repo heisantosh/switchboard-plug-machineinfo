@@ -1,0 +1,29 @@
+switchboard-plug-about (0.2.0.1) trusty; urgency=medium
+
+  * New upstream release.
+
+ -- Cody Garver <cody@elementary.io>  Tue, 10 Nov 2015 06:30:31 -0600
+
+switchboard-plug-about (0.2.0) trusty; urgency=low
+
+  * New upstream release.
+
+ -- Cody Garver <cody@elementaryos.org>  Mon, 06 Apr 2015 19:07:09 -0500
+
+switchboard-plug-about (0.1.2) trusty; urgency=low
+
+  * New upstream release.
+
+ -- Cody Garver <cody@elementaryos.org>  Sat, 10 Aug 2013 23:46:06 -0500
+
+switchboard-plug-about (0.1.1) precise; urgency=low
+
+  * New upstream release.
+
+ -- Cody Garver <cody@elementaryos.org>  Sun, 09 Jun 2013 19:27:30 -0500
+
+switchboard-plug-about (0.1) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Ivo Nunes <ivo@elementaryos.org>  Sat, 22 Sep 2012 02:45:48 +0300

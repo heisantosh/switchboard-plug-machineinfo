@@ -1,0 +1,106 @@
+# Albanian translation for switchboard-plug-about
+# Copyright (c) 2015 Rosetta Contributors and Canonical Ltd 2015
+# This file is distributed under the same license as the switchboard-plug-about package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: switchboard-plug-about\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2015-04-22 16:02-0500\n"
+"PO-Revision-Date: 2015-08-16 19:14+0000\n"
+"Last-Translator: Denis Ju <Unknown>\n"
+"Language-Team: Albanian <sq@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2015-08-17 06:05+0000\n"
+"X-Generator: Launchpad (build 17686)\n"
+
+#: ../src//Plug.vala:41
+msgid "About"
+msgstr "Rreth"
+
+#: ../src//Plug.vala:42
+msgid "View System Information"
+msgstr "Shfaq informacione mbi sistemin"
+
+#: ../src//Plug.vala:178 ../src//Plug.vala:207 ../src//Plug.vala:231
+#: ../src//Plug.vala:242 ../src//Plug.vala:262
+msgid "Unknown"
+msgstr "E panjohur"
+
+#: ../src//Plug.vala:198
+msgid "Dual-Core"
+msgstr "Dopjo-Bërthamë"
+
+#: ../src//Plug.vala:200
+msgid "Quad-Core"
+msgstr "Katër-Bërthamë"
+
+#: ../src//Plug.vala:281
+msgid "Built on %s %s"
+msgstr "I ndërtuar mbi %s %s"
+
+#: ../src//Plug.vala:286
+msgid "Website"
+msgstr "Faqja web"
+
+#: ../src//Plug.vala:300
+msgid "Hardware:"
+msgstr "Aparat"
+
+#: ../src//Plug.vala:304
+msgid "Processor:"
+msgstr "Proçesori:"
+
+#: ../src//Plug.vala:308
+msgid "Memory:"
+msgstr "Kujtesa:"
+
+#: ../src//Plug.vala:312
+msgid "Graphics:"
+msgstr ""
+
+#: ../src//Plug.vala:316
+msgid "Storage:"
+msgstr "Depozitë"
+
+#: ../src//Plug.vala:372
+msgid "Suggest Translations"
+msgstr "Sugjero përkthime"
+
+#: ../src//Plug.vala:382
+msgid "Report a Problem"
+msgstr "Raporto një problem"
+
+#: ../src//Plug.vala:392
+msgid "Check for Updates"
+msgstr "Kontrollo për përditësime"
+
+#: ../src//Plug.vala:402
+msgid "Restore Default Settings"
+msgstr "Rikthe parametrat e parazgjedhur"
+
+#: ../src//Plug.vala:508
+msgid "System settings will be restored to the factory defaults"
+msgstr ""
+"Parametrat e sistemit do të rikthehen në vlerat e parazgjedhura fillestare"
+
+#: ../src//Plug.vala:509
+msgid "All system settings and data will be reset to the default values."
+msgstr ""
+"Të gjitha të dhënat dhe parametrat e sistemit do të rivendosen në vlerat e "
+"parazgjedhura."
+
+#: ../src//Plug.vala:510
+msgid "Personal data, such as music and pictures, will be uneffected."
+msgstr "Të dhënat personale, si muzika dhe fotografitë, nuk do të preken."
+
+#: ../src//Plug.vala:527
+msgid "Restore Settings"
+msgstr "Rikthe Rregullimet"
+
+#: ../src//Plug.vala:530
+msgid "Cancel"
+msgstr "Ndërpre"

@@ -1,0 +1,103 @@
+# Southern Sami translation for switchboard-plug-about
+# Copyright (c) 2014 Rosetta Contributors and Canonical Ltd 2014
+# This file is distributed under the same license as the switchboard-plug-about package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: switchboard-plug-about\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2015-04-22 16:02-0500\n"
+"PO-Revision-Date: 2015-03-06 10:25+0000\n"
+"Last-Translator: Skandee <Unknown>\n"
+"Language-Team: Southern Sami <sma@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2015-04-23 06:36+0000\n"
+"X-Generator: Launchpad (build 17430)\n"
+
+#: ../src//Plug.vala:41
+msgid "About"
+msgstr "Bijre"
+
+#: ../src//Plug.vala:42
+msgid "View System Information"
+msgstr "Systeme-informasjovne vuartasjidh"
+
+#: ../src//Plug.vala:178 ../src//Plug.vala:207 ../src//Plug.vala:231
+#: ../src//Plug.vala:242 ../src//Plug.vala:262
+msgid "Unknown"
+msgstr "﻿Ovnohkens"
+
+#: ../src//Plug.vala:198
+msgid "Dual-Core"
+msgstr "Dual-Core"
+
+#: ../src//Plug.vala:200
+msgid "Quad-Core"
+msgstr "Quad-Core"
+
+#: ../src//Plug.vala:281
+msgid "Built on %s %s"
+msgstr "%s %s bïekedh"
+
+#: ../src//Plug.vala:286
+msgid "Website"
+msgstr "Gåetiebielie"
+
+#: ../src//Plug.vala:300
+msgid "Hardware:"
+msgstr "Domhpe:"
+
+#: ../src//Plug.vala:304
+msgid "Processor:"
+msgstr "Faamoe:"
+
+#: ../src//Plug.vala:308
+msgid "Memory:"
+msgstr "Mojhtese:"
+
+#: ../src//Plug.vala:312
+msgid "Graphics:"
+msgstr "Grafihke:"
+
+#: ../src//Plug.vala:316
+msgid "Storage:"
+msgstr "Sijjie:"
+
+#: ../src//Plug.vala:372
+msgid "Suggest Translations"
+msgstr "uvtedidh ﻿jarkoestidh"
+
+#: ../src//Plug.vala:382
+msgid "Report a Problem"
+msgstr "Dåeriesmoere reektehtem"
+
+#: ../src//Plug.vala:392
+msgid "Check for Updates"
+msgstr "oppdatering vuartasjidh"
+
+#: ../src//Plug.vala:402
+msgid "Restore Default Settings"
+msgstr ""
+
+#: ../src//Plug.vala:508
+msgid "System settings will be restored to the factory defaults"
+msgstr ""
+
+#: ../src//Plug.vala:509
+msgid "All system settings and data will be reset to the default values."
+msgstr ""
+
+#: ../src//Plug.vala:510
+msgid "Personal data, such as music and pictures, will be uneffected."
+msgstr ""
+
+#: ../src//Plug.vala:527
+msgid "Restore Settings"
+msgstr ""
+
+#: ../src//Plug.vala:530
+msgid "Cancel"
+msgstr ""

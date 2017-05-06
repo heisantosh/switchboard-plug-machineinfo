@@ -1,0 +1,103 @@
+# Slovak translation for switchboard-plug-about
+# Copyright (c) 2013 Rosetta Contributors and Canonical Ltd 2013
+# This file is distributed under the same license as the switchboard-plug-about package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: switchboard-plug-about\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2015-04-22 16:02-0500\n"
+"PO-Revision-Date: 2015-09-06 19:53+0000\n"
+"Last-Translator: Adam Lukacovic <lukacovic.adam@gmail.com>\n"
+"Language-Team: Slovak <sk@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2015-09-07 05:55+0000\n"
+"X-Generator: Launchpad (build 17706)\n"
+
+#: ../src//Plug.vala:41
+msgid "About"
+msgstr "O programe"
+
+#: ../src//Plug.vala:42
+msgid "View System Information"
+msgstr "Zobraziť informácie o systéme"
+
+#: ../src//Plug.vala:178 ../src//Plug.vala:207 ../src//Plug.vala:231
+#: ../src//Plug.vala:242 ../src//Plug.vala:262
+msgid "Unknown"
+msgstr "Neznáme"
+
+#: ../src//Plug.vala:198
+msgid "Dual-Core"
+msgstr "dvojjadrový"
+
+#: ../src//Plug.vala:200
+msgid "Quad-Core"
+msgstr "štvojjadrový"
+
+#: ../src//Plug.vala:281
+msgid "Built on %s %s"
+msgstr "Založené na %s %s"
+
+#: ../src//Plug.vala:286
+msgid "Website"
+msgstr "Webstránka"
+
+#: ../src//Plug.vala:300
+msgid "Hardware:"
+msgstr "Hardvér:"
+
+#: ../src//Plug.vala:304
+msgid "Processor:"
+msgstr "Procesor:"
+
+#: ../src//Plug.vala:308
+msgid "Memory:"
+msgstr "Pamäť:"
+
+#: ../src//Plug.vala:312
+msgid "Graphics:"
+msgstr "Grafika:"
+
+#: ../src//Plug.vala:316
+msgid "Storage:"
+msgstr "Úložisko:"
+
+#: ../src//Plug.vala:372
+msgid "Suggest Translations"
+msgstr "Navrhnúť preklady"
+
+#: ../src//Plug.vala:382
+msgid "Report a Problem"
+msgstr "Nahlásiť problém"
+
+#: ../src//Plug.vala:392
+msgid "Check for Updates"
+msgstr "Skontrolovať aktualizácie"
+
+#: ../src//Plug.vala:402
+msgid "Restore Default Settings"
+msgstr "Obnoviť predvolené nastavenia"
+
+#: ../src//Plug.vala:508
+msgid "System settings will be restored to the factory defaults"
+msgstr "Nastavenia systému sa obnovia na predvolené továrenské nastavenia"
+
+#: ../src//Plug.vala:509
+msgid "All system settings and data will be reset to the default values."
+msgstr "Všetky nastavenia a dáta systému sa obnovia na predvolené hodnoty."
+
+#: ../src//Plug.vala:510
+msgid "Personal data, such as music and pictures, will be uneffected."
+msgstr "Osobné údaje, ako napríklad hudba a obrázky, nebudú ovplyvnené."
+
+#: ../src//Plug.vala:527
+msgid "Restore Settings"
+msgstr "Obnoviť nastavenia"
+
+#: ../src//Plug.vala:530
+msgid "Cancel"
+msgstr "Zrušiť"
