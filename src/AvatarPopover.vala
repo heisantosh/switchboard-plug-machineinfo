@@ -98,9 +98,11 @@ namespace MachineInfo.Widgets {
                 avatar_dialog = new Dialogs.AvatarDialog (path);
                 avatar_dialog.request_avatar_change.connect ((pixbuf) => {
                     avatar_pixbuf = pixbuf.scale_simple (avatar_size, avatar_size, Gdk.InterpType.BILINEAR);
-                    avatar_button.set_image (new Granite.Widgets.Avatar.from_pixbuf (avatar_pixbuf));
+                    var machine_avatar = new Granite.Widgets.Avatar.from_pixbuf (avatar_pixbuf);
+                    machine_avatar.halign = Gtk.Align.CENTER;
+                    machine_avatar.margin = 12;
+                    avatar_button.set_image (machine_avatar);
                     avatar_button.get_style_context ().add_class (Gtk.STYLE_CLASS_FLAT);
-                    // Save the icon somewhere after which it can be refered using just the name 'machine-icon'
                     try {
                         saveIcon (avatar_pixbuf);
                         MachineInfo.icon_name = "machine-icon";
@@ -117,14 +119,11 @@ namespace MachineInfo.Widgets {
         }
 
         private void saveIcon (Gdk.Pixbuf avatar_pixbuf) throws Error {
-            // Create a temp file to store the icon
             var fileName = Path.build_filename("/tmp", "machine-icon.png");
             avatar_pixbuf.savev (fileName, "png", {}, {});
-            // Copy the temp file to destination using command line
             if (get_permission ().allowed) {
                 string output;
                 int status;
-
                 try {
                     var cli = "%s/machine-info-icon".printf (Constants.PKGDATADIR);
                     Process.spawn_sync(null,
