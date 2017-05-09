@@ -30,7 +30,6 @@ namespace MachineInfo {
         private Gtk.Entry pretty_hostname_entry;
         private Gtk.Image hostname_lock;
         private Gtk.Image pretty_hostname_lock;
-        // private static Polkit.Permission? permission = null;
 
         private string permission_require_info_string = _("Settings require administrator rights to be changed");
         private string no_permisson_string = _("You do not the permission to change this");
@@ -110,7 +109,6 @@ namespace MachineInfo {
             settings_grid.row_spacing = 6;
             settings_grid.column_spacing = 12;
             
-            // machine_avatar = new Granite.Widgets.Avatar.with_default_icon (avatar_size);
             Gtk.IconTheme icon_theme = Gtk.IconTheme.get_default ();
             try {
                 machine_avatar = new Granite.Widgets.Avatar.from_pixbuf (
@@ -213,23 +211,7 @@ namespace MachineInfo {
             lock_icon.set_tooltip_text (no_permisson_string);
             lock_icon.halign = Gtk.Align.CENTER;
             return lock_icon;
-        }  
-
-        /*
-        public static Polkit.Permission? get_permission () {
-            if (permission != null) {
-                return permission;
-            }
-            try {
-                permission = new Polkit.Permission.sync ("org.pantheon.switchboard.machine-info.administration", 
-                    new Polkit.UnixProcess (Posix.getpid ()));
-                return permission;
-            } catch (Error e) {
-                critical (e.message);
-                return null;
-            }
         }
-        */
     }
 }
 
