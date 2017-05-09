@@ -22,7 +22,6 @@ namespace MachineInfo {
         private Gtk.LockButton lock_button;
         private Gtk.Grid settings_grid;
         private Granite.Widgets.Avatar machine_avatar;
-        private Gdk.Pixbuf? avatar_pixbuf;
         private Gtk.Button avatar_button;
         private Gtk.Label hostname_label;
         private Gtk.Entry hostname_entry;
@@ -127,9 +126,6 @@ namespace MachineInfo {
             avatar_button.clicked.connect (() => {
                 Widgets.AvatarPopover popover = new Widgets.AvatarPopover(avatar_button, avatar_size);
                 popover.show_all ();
-                popover.hide.connect (() => {
-                    avatar_pixbuf = popover.avatar_pixbuf;
-                });
             });
             
             settings_grid.attach (avatar_button, 1, 0, 1, 1);
